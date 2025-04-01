@@ -1,7 +1,3 @@
-if (true) {
-  useEffect(() => console.log("hi"), [])
-}
-
 import { useCallback, useMemo, useRef, useState } from 'react';
 import { add, divide, multiply, subtract } from './calculator';
 
